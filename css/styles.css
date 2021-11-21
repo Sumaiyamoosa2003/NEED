@@ -1,0 +1,231 @@
+body {
+  font-family: Montserrat;
+}
+
+em {
+  color: black;
+}
+
+h2, h3 {
+  font-family: Montserrat-black;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: 700;
+}
+
+/* headings */
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.job {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.cost {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* title */
+#title {
+  background-color: #911F27;
+  padding-bottom: 45px;
+  text-align: left;
+}
+
+/* NavBar */
+.nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.logo {
+  border-radius: 100%;
+  height: 72px;
+  width: 72px;
+  border-style: dotted;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+/* phone */
+.phone {
+  background-color: #A9333A;
+  position: absolute;
+  right: 30%;
+  width: 40%;
+  top: 30px;
+  transform: rotate(25deg);
+}
+
+.dis {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding-top: 140px;
+  text-align: left;
+}
+
+.main {
+  padding-left: 5px;
+}
+
+.container-fluid {
+  padding: 1% 7%;
+}
+
+/* button */
+.btn-outline-light {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.btn-dark {
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+/* features */
+#features {
+  padding: 5% 15%;
+  line-height: 1.5;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+
+.fas {
+  color: #911F27;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #A9333A;
+}
+
+.feautres-box {
+  padding: 5%;
+}
+
+/* carousel */
+#testimonials {
+  text-align: center;
+  background-color: #A9333A;
+  color: white;
+  font-weight: bold;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.customer {
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #A9333A;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.testimonial-text {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.cost {
+  color: #A9333A;
+}
+
+/* press */
+.logos {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.card {
+  padding: : 1% 1%;
+  text-align: center;
+}
+
+.sec {
+  margin-top: 50px;
+}
+
+/* cta */
+#cta {
+  background-color: #A9333A;
+  font-family: Montserrat-black;
+  text-align: center;
+  font-weight: 900;
+  color: white;
+  padding: 7% 15%;
+}
+
+.cta {
+  font-size: 3rem;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.icon {
+  margin: 20px 10px;
+}
+
+@media screen and (max-width:990px) {
+  .phone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .col-lg-6 {
+    padding-right: 0;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #features {
+    position: static;
+  }
+}
+
+.btn {
+  margin-bottom: 20px;
+}
