@@ -224,6 +224,7 @@ p {
   #features {
     position: static;
   }
+  .testimonial-text{font-size:1.5rem;}
 }
 
 .btn {
